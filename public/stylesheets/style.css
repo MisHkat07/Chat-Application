@@ -1,16 +1,17 @@
 
 /* css custom properties */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&display=swap');
+
 :root {
-  --primary: #171c2a;
-  --secondary: #11141f;
-  --tertiary: #1f222e;
+  --primary: #001F3F;
+  --secondary: #083358;
+  --tertiary: #083358;
   --dark: #0e0e12;
-  --green: #52d794;
-  --blue: #00b3bd;
+  --green: #5ef0ce;
+  --blue: #20adff;
   --light: #fff;
   --red: indianred;
 }
-
 /* common global styles */
 
 * {
@@ -25,9 +26,9 @@ body {
 }
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to right, var(--green) 0%, var(--blue) 100%);
-  font-size: 10px;
+  font-family: 'Assistant', sans-serif;
+  background: linear-gradient(90deg,#20adff 0%,#5ef0ce,#0084ff);
+  font-size: 12px;
 }
 
 body {
@@ -70,8 +71,9 @@ input.error {
 
 input[type="submit"] {
   margin: 2rem auto;
+  color: rgb(0, 0, 0);
   width: 200px;
-  background: linear-gradient(to right, var(--green), var(--blue));
+  background:  linear-gradient(90deg,#20adff 0%,#5ef0ce,#0084ff);
   cursor: pointer;
   font-weight: 600;
   transition: transform 0.1s ease-in-out;
