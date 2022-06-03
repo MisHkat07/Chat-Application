@@ -31,7 +31,7 @@ const addUserValidators = [
     }),
   check("mobile")
     .isMobilePhone("bn-BD", {
-      strictMode: true,
+      strictMode: false,
     })
     .withMessage("Mobile number must be a valid Bangladeshi mobile number")
     .custom(async (value) => {
@@ -45,7 +45,7 @@ const addUserValidators = [
       }
     }),
   check("password")
-    .isStrongPassword()
+    .isString()
     .withMessage(
       "Password must be at least 8 characters long & should contain at least 1 lowercase, 1 uppercase, 1 number & 1 symbol"
     ),
