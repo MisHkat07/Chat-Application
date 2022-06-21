@@ -1,2 +1,2 @@
 # Chat-Application
-Chat Application with Node JS, Express JS, EJS, MongoDB, Express Validator, JWT
+Server Side Rendering Real time Chat Application with NodeJS, Express JS, EJS, MongoDB, Express Validator, User Auth management system with JWT.
